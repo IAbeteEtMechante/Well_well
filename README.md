@@ -6,10 +6,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Using AI to find the best water well location</h3>
+  <h3 align="center">Well Well : AI to find best well location</h3>
 
   <p align="center">
-    Helping communities in Africa to get access to clean water 
+    Machine Learning project to help communities find the best water well location and get access to clean water 
     <br />
     <a href="https://github.com/IAbeteEtMechante/Well_well"><strong>Explore the docs »</strong></a>
     <br />
@@ -25,7 +25,8 @@
 <br>
 <br>
 
-This is a project submission for the 2021 IBM Call for Code Challenge. Many people in the world dont have access to clean water. Some communities try to drill water wells, but they need help to know the best locaiton to drill. This project aims at using AI to help them find this best location.
+This is a project submission for the 2021 IBM **Call for Code Challenge**, which focus on 3 domains, one of them being access to clean water. 
+8oo million people in the world dont have access to clean water today. Some communities try to drill water wells, but they need help to know the best potential location, before they start drilling. Why not use a little bit of AI to help them out?
 
 Author: Pierre Schwob
 <br>
@@ -45,7 +46,7 @@ Author: Pierre Schwob
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-What if, machine learning could help people find the best water wells location in a more systematic and inexpensive way. Meet Well well, our project using machine learning and robotics expertise to propose a 2 part solution to this problem:
+What if, Machine Learning could help people find the best water wells location in a more systematic and inexpensive way. Meet Well well, our project using machine learning and robotics expertise to propose a 2 part solution to this problem:
 <li>the first module, is a free web application that takes a single input,  the GPS location of any point in the world. Using a combination of geological features map, satellite imagery and Machine Learning, this web application will then predict the best places to drill a water well within walking distance. It can be used on any mobile phone anywhere in the world. </li>
 <li>And we also thought about the countless people who don't have access to clean water and also do not have access to a mobile phone or even to the internet, that's why we also added a second module to our project, which is a cheap portable device, costing only under 10 USD. This device will store some precomputed ideal locations for wells all around the world. It will be able to detect the current the GPS location of any user,  and guide him or her to the nearest ideal place to drill a water well.</li>
 <br>
