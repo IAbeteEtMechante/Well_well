@@ -6,7 +6,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Using AI to find the best well location</h3>
+  <h3 align="center">Using AI to find the best water well location</h3>
 
   <p align="center">
     Helping communities in Africa to get access to clean water 
