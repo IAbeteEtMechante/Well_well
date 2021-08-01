@@ -90,13 +90,13 @@ However it was really difficult to find datasets with enough datapoints in Afric
 
 #### Negative Samples
 
-Once we started working on our dataset, our dataset was what we call "positive samples". To train our model, that can predict probability values between 0 and 1, we also need "negative samples". We plan to try out the following methods in the future:
+Once we started working on our dataset, our dataset was what we call "positive samples" (more precisely, we only kept the wells with a yield superior to a given threshold, to be our positive samples). To train our model, that can predict probability values between 0 and 1, we also need "negative samples". We plan to try out the following methods in the future:
 1. For each good well, take all the closest wells to it, calculate the center of mass: this is a bad location because it is too close to the other wells
 2. Use hydrologist expertise to select bad locations for wells
 3. Random selection on the map
 4. Use more criteria on the wells to basically rank them by quality
 
-It would be interesting in the future to compare those different techniques. But at this point, we are just trying to establish a proof of concept. We kept it simple and just used random generation.
+It would be interesting in the future to compare those different techniques. But at this point, we were just trying to establish a proof of concept. We kept it simple and just used random generation.
 
 #### Feature generation
 
