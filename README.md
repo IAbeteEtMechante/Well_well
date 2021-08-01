@@ -27,12 +27,12 @@
 
 This is a project submission for the 2021 IBM **Call for Code Challenge**. 
 
-The 2021 IBM Call for Code Challenge is a global contest to fight Climate Change, which focuses on 3 domains, one of them being access to clean water. 
-8oo million people in the world dont have access to clean water today. Some communities try to drill water wells, but they need help to know the best potential location, before they start drilling. Why not use a little bit of AI to help them out?
+The 2021 IBM Call for Code Challenge is a global contest to fight **Climate Change**, which focuses on 3 domains, one of them being **access to clean water.** 
+8oo million people in the world dont have access to clean water today. Some communities try to drill water wells, but **they need help to know the best potential location**, before they start drilling. Why not use a little bit of AI to help them out?
 
 Watch this [short video](https://www.youtube.com/watch?v=CnvxaTBWoZo) to have a better idea of what we are all about.
 
-Author: Pierre Schwob (Master in Data Science student, Harbour Space / UTCC)
+Author: Pierre Schwob (Master in Data Science student, [Harbour Space](https://harbour.space) / [UTCC](https://www.utcc.ac.th))
 <br>
 
 
@@ -54,12 +54,12 @@ Author: Pierre Schwob (Master in Data Science student, Harbour Space / UTCC)
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-What if, Machine Learning could help people find the best water wells location in a more systematic and inexpensive way. Meet Well well, our project using machine learning and robotics expertise to propose a 2 part solution to this problem:
-<li>the first module, is a free web application that takes a single input,  the GPS location of any point in the world. Using a combination of geological features map, satellite imagery and Machine Learning, this web application will then predict the best places to drill a water well within walking distance. It can be used on any mobile phone anywhere in the world. </li>
-<li>And we also thought about the countless people who don't have access to clean water and also do not have access to a mobile phone or even to the internet, that's why we also added a second module to our project, which is a cheap portable device, costing only under 10 USD. This device will store some precomputed ideal locations for wells all around the world. It will be able to detect the current the GPS location of any user,  and guide him or her to the nearest ideal place to drill a water well.</li>
+What if, Machine Learning could help people find the best water wells location in a more **systematic and inexpensive way**. With Well well, our project using **machine learning and robotics** expertise, we propose a 2 part solution to this problem:
+<li>the first module, is a <strong>free web application</strong> that takes a single input,  the GPS location of any point in the world. Using a combination of geological features map, satellite imagery and Machine Learning, this web application will then predict the best places to drill a water well <strong>within walking distance</strong>. It can be used on <strong>any mobile phone</strong> anywhere in the world. </li>
+<li>And we also thought about the countless people who don't have access to clean water and also <strong>do not have access to a mobile phone or even to the internet</strong>, that's why we also added a second module to our project, which is a cheap <strong>portable device</strong>, costing only <strong>under 10 USD</strong>. This device will store some <strong>precomputed</strong> ideal locations for wells all around the world. It will be able to detect the current the GPS location of any user,  and <strong>guide him or her</strong> to the nearest ideal place to drill a water well.</li>
 <br>
 
-The scientific literature is full of examples on how machine learning can help predict Groundwater mapping potential, using information available on maps like the distance to nearest river, the vegetation nearby, the soil composition etc....If like us you think it is time to bring those amazing ideas to life with a cheap and practical solution, answer the call and join us because for people in developing countries, access to clean water can change everything.
+The scientific literature is full of examples on how machine learning can help predict **Groundwater mapping potential**, using information available on maps like the distance to nearest river, the vegetation nearby, the soil composition and so on...If like us you think it is time to bring those amazing ideas to life with a cheap and practical solution, answer the call and join us because for people in developing countries, access to clean water can **change everything**.
 
 
 ### Built With
@@ -72,27 +72,27 @@ Here are the major frameworks that we built our project with.
 
 ### Overview
 
-The final goal of the project was clear to us very fast: "How to help people find the best location for a water well". But how to translate that into a mathematical problem statement that can be properly solved by a Machine Learning Module?
+The **final goal** of the project was clear to us very fast: "How to help people find the best location for a water well". But how to translate that into a **mathematical problem statement** that can be properly solved by a Machine Learning Module?
 
-* First we had to get some deeper knowledge on the area. We therefore built a [questionnaire](https://github.com/IAbeteEtMechante/Well_well/blob/main/misc/Questionnaire_for_hydrologists.pdf) with a lot of questions to be asked to as many hydrologists as possible.
+* First we had to get some **deeper knowledge** on this domain. We therefore built a [questionnaire](https://github.com/IAbeteEtMechante/Well_well/blob/main/misc/Questionnaire_for_hydrologists.pdf) with a lot of questions to be asked to as many **hydrologists** as possible.
 * Second, we read as many scientific papers on the subject called "Groundwater mapping potential". Those are grouped in the [litterature review directory](https://github.com/IAbeteEtMechante/Well_well/tree/main/litterature_review) of this repo
 
-Finally, we were able to state our mathematical problem statement as follow: "For a given map around the GPS location of the end user, we want to be able to predict for each GPS location within walking distance, what is the probability that this location is a good location to drill a water well."
+Finally, we were able to state our mathematical problem statement as follow: "For a given map around the GPS location of the end user, we want to be able to predict for each GPS location within walking distance, what is the **probability** that this location is a **good location to drill a water well**."
 
 
 ### More explanations
 
 #### Data Collection
 
-In order to solve the mathematical problem statement, we needed to have access to some datasets. We were mostly interested in dataset in Africa and we spent a long time looking for them. The results of our searches can be found in the [datasets]() directory.
+In order to solve the mathematical problem statement, we needed to have access to some datasets. We were mostly interested in **datasets in Africa** and we spent a long time looking for them. The results of our searches can be found in the [datasets]() directory.
 
-However it was really difficult to find datasets with enough datapoints in Africa. That's why eventually we focused on a dataset of 50,000 wells in Nevada. While our main goal is not to build water wells in the United States(even if it is a good thing), we decided to focus on this area first, to advance our Machine Learning model, with the idea that we could use transfer learning to move our findings to Africa later. Data collection for our project is not that easy, and that's why we would be happy in the future to have some funding to pursue this dataset collection in Africa.
+However it was really difficult to find datasets with enough datapoints in Africa. That's why eventually we focused on a dataset of 50,000 wells in Nevada. While our main goal is not to build water wells in the United States(even if it is a good thing), we decided to focus on this area first, to advance our Machine Learning model, with the idea that we could use **transfer learning** to move our findings to Africa later. Data collection for our project is not that easy, and that's why we would be happy in the future to have some funding to pursue this dataset collection in Africa.
 
-You can have a look at our dataset exploration on this [notebook](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/e88bda12-5d09-4edd-acae-3eda798d8a3e/view?access_token=c10ecb8efbeaa0e325c1ba56e059c8ed9dd6e92a31709112f1836653a14e4c9d) on IBM Watson.
+You can have a look at our **dataset exploration** on this [notebook](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/e88bda12-5d09-4edd-acae-3eda798d8a3e/view?access_token=c10ecb8efbeaa0e325c1ba56e059c8ed9dd6e92a31709112f1836653a14e4c9d) on IBM Watson.
 
 #### Negative Samples
 
-Once we started working on our dataset, our dataset was what we call "positive samples" (more precisely, we only kept the wells with a **yield superior to a given threshold**, to be our positive samples). To train our model, that can predict probability values between 0 and 1, we also need "negative samples". We plan to try out the following methods:
+Once we started working on our dataset, our dataset was what we call "positive samples" (more precisely, we only kept the wells with a **yield superior to a given threshold**, to be our positive samples). To train our model, that can predict probability values between 0 and 1, we also need **"negative samples"**. We plan to try out the following methods:
 1. For each good well, take all the closest wells to it, calculate the center of mass: this is a bad location because it is too close to the other wells
 2. Use **hydrologist expertise** to select bad locations for wells
 3. **Random selection** on the map
