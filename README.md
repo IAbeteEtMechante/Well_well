@@ -144,11 +144,11 @@ Project Link: [https://github.com/IAbeteEtMechante/Well_well](https://github.com
 
 
 
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-If you want to learn more on this subject:
+Even though I am the only one submitting this work, it has been a team effort all along, thank you to my fellow students for all the wonderfull help on the code, the device building and the project in general. And of course to my teachers for all the good advices:)
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
