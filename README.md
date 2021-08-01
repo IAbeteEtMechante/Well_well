@@ -133,7 +133,7 @@ If you are interested in this topic, you too can contribute to this work. Contri
 <!-- LICENSE -->
 ## License
 
-All this work is fully openSource feel free to use it.
+All this work is fully Open Source, feel free to use it.
 
 <!-- CONTACT -->
 ## Contact
