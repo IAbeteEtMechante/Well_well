@@ -75,7 +75,7 @@ Here are the major frameworks that we built our project with.
 The final goal of the project was clear to us very fast: "How to help people find the best location for a water well". But how to translate that into a mathematical problem statement that can be properly solved by a Machine Learning Module?
 
 * First we had to get some deeper knowledge on the area. We therefore built a [questionnaire](https://github.com/IAbeteEtMechante/Well_well/blob/main/misc/Questionnaire_for_hydrologists.pdf) with a lot of questions to be asked to as many hydrologists as possible.
-* Second, we read as many scientific papers on the subject called "Groundwater mapping potential". Those are grouped in the litterature review directory of this repo
+* Second, we read as many scientific papers on the subject called "Groundwater mapping potential". Those are grouped in the [litterature review directory](https://github.com/IAbeteEtMechante/Well_well/tree/main/litterature_review) of this repo
 
 Finally, we were able to state our mathematical problem statement as follow: "For a given map around the GPS location of the end user, we want to be able to predict for each GPS location within walking distance, what is the probability that this location is a good location to drill a water well."
 
@@ -106,6 +106,16 @@ It would be interesting in the future to compare those different techniques. But
 
 <!-- PHYSICAL DEVICE -->
 ## Physical Device
+
+Its mission is to guide the user to the nearest and best well location. It is a **2” device with a microcomputer**, and its **GPS sensor** can detect the user's current location. Because it stores lots of locations precalculated by the AI model, it can then easily guide him or her to the best-nearest location.
+
+
+Our handheld device was made with **lower income communities** in mind:
+* it can be used with **no connectivity**
+* no need for a secure access to power sources (we use **ultra low power components**, charged for many weeks within **one day of sunlight**)
+* using 4 LEDs as guider arrows towards the right direction
+* with the ability to change to the next-best location using a **single button**
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
