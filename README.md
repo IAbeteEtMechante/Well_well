@@ -82,9 +82,13 @@ Finally, we were able to state our mathematical problem statement as follow: "Fo
 
 ### More explanations
 
+#### Data Collection
+
 In order to solve the mathematical problem statement, we needed to have access to some datasets. We were mostly interested in dataset in Africa and we spent a long time looking for them. The results of our searches can be found in the [datasets]() directory.
 
 However it was really difficult to find datasets with enough datapoints in Africa. That's why eventually we focused on a dataset of 50,000 wells in Nevada. While our main goal is not to build water wells in the United States(even if it is a good thing), we decided to focus on this area first, to advance our Machine Learning model, with the idea that we could use transfer learning to move our findings to Africa later. Data collection for our project is not that easy, and that's why we would be happy in the future to have some funding to pursue this dataset collection in Africa.
+
+#### Negative Samples
 
 Once we started working on our dataset, our dataset was what we call "positive samples". To train our model, that can predict probability values between 0 and 1, we also need "negative samples". We plan to try out the following methods in the future:
 1. For each good well, take all the closest wells to it, calculate the center of mass: this is a bad location because it is too close to the other wells
@@ -93,6 +97,12 @@ Once we started working on our dataset, our dataset was what we call "positive s
 4. Use more criteria on the wells to basically rank them by quality
 
 It would be interesting in the future to compare those different techniques. But at this point, we are just trying to establish a proof of concept. We kept it simple and just used random generation.
+
+#### Feature generation
+
+
+
+
 
 <!-- PHYSICAL DEVICE -->
 ## Physical Device
