@@ -11,7 +11,7 @@
   <p align="center">
     Machine Learning project to help communities find the best water well location and get access to clean water 
     <br />
-    <a href="https://github.com/IAbeteEtMechante/Well_well"><strong>Explore the docs »</strong></a>
+    <a href="https://www.youtube.com/watch?v=CnvxaTBWoZo"><stron>Watch the video »</strong></a>
     <br />
     <br />
     <a href="https://wellwellwell.h4k00r.com/#">View Demo</a>
@@ -25,8 +25,12 @@
 <br>
 <br>
 
-This is a project submission for the 2021 IBM **Call for Code Challenge**, which focus on 3 domains, one of them being access to clean water. 
+This is a project submission for the 2021 IBM **Call for Code Challenge**. 
+
+The 2021 IBM Call for Code Challenge is a global contest to fight Climate Change, which focuses on 3 domains, one of them being access to clean water. 
 8oo million people in the world dont have access to clean water today. Some communities try to drill water wells, but they need help to know the best potential location, before they start drilling. Why not use a little bit of AI to help them out?
+
+Watch this [short video](https://www.youtube.com/watch?v=CnvxaTBWoZo) to have a better idea of what we are all about.
 
 Author: Pierre Schwob
 <br>
@@ -37,6 +41,8 @@ Author: Pierre Schwob
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
+* [Machine Learning module](#machine-learning-module)
+* [Physical Device](#physical-device)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -65,7 +71,11 @@ Here are the major frameworks that we built our project with.
 * [IBM data Pak](https://www.ibm.com/products/cloud-pak-for-data)
 * [ESRI](https://www.esri.com/en-us/home)
 
+<!-- MACHINE LEARNING MODULE -->
+## Machine Learning Module
 
+<!-- PHYSICAL DEVICE -->
+## Physical Device
 
 <!-- CONTRIBUTING -->
 ## Contributing
