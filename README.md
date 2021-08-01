@@ -32,7 +32,7 @@ The 2021 IBM Call for Code Challenge is a global contest to fight Climate Change
 
 Watch this [short video](https://www.youtube.com/watch?v=CnvxaTBWoZo) to have a better idea of what we are all about.
 
-Author: Pierre Schwob
+Author: Pierre Schwob (Master in Data Science student, Harbour Space / UTCC)
 <br>
 
 
