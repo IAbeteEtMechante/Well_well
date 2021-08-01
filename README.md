@@ -42,6 +42,8 @@ Author: Pierre Schwob
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Machine Learning module](#machine-learning-module)
+  * [Built With](#overview)
+  * [More Explanations](#more-explanations)
 * [Physical Device](#physical-device)
 * [Contributing](#contributing)
 * [License](#license)
@@ -60,12 +62,6 @@ What if, Machine Learning could help people find the best water wells location i
 The scientific literature is full of examples on how machine learning can help predict Groundwater mapping potential, using information available on maps like the distance to nearest river, the vegetation nearby, the soil composition etc....If like us you think it is time to bring those amazing ideas to life with a cheap and practical solution, answer the call and join us because for people in developing countries, access to clean water can change everything.
 
 
-
-Plan of work:
-*
-*
-*
-
 ### Built With
 Here are the major frameworks that we built our project with.
 * [IBM data Pak](https://www.ibm.com/products/cloud-pak-for-data)
@@ -73,6 +69,30 @@ Here are the major frameworks that we built our project with.
 
 <!-- MACHINE LEARNING MODULE -->
 ## Machine Learning Module
+
+### Overview
+
+The final goal of the project was clear to us very fast: "How to help people find the best location for a water well". But how to translate that into a mathematical problem statement that can be properly solved by a Machine Learning Module?
+
+* First we had to get some deeper knowledge on the area. We therefore built a [questionnaire]() with a lot of questions to be asked to as many hydrologists as possible.
+* Second, we read as many scientific papers on the subject called "Groundwater mapping potential". Those are grouped in the litterature review directory of this repo
+
+Finally, we were able to state our mathematical problem statement as follow: "For a given map around the GPS location of the end user, we want to be able to predict for each GPS location within walking distance, what is the probability that this location is a good location to drill a water well."
+
+
+### More explanations
+
+In order to solve the mathematical problem statement, we needed to have access to some datasets. We were mostly interested in dataset in Africa and we spent a long time looking for them. The results of our searches can be found in the [datasets]() directory.
+
+However it was really difficult to find datasets with enough datapoints in Africa. That's why eventually we focused on a dataset of 50,000 wells in Nevada. While our main goal is not to build water wells in the United States(even if it is a good thing), we decided to focus on this area first, to advance our Machine Learning model, with the idea that we could use transfer learning to move our findings to Africa later. Data collection for our project is not that easy, and that's why we would be happy in the future to have some funding to pursue this dataset collection in Africa.
+
+Once we started working on our dataset, our dataset was what we call "positive samples". To train our model, that can predict probability values between 0 and 1, we also need "negative samples". We plan to try out the following methods in the future:
+1. For each good well, take all the closest wells to it, calculate the center of mass: this is a bad location because it is too close to the other wells
+2. Use hydrologist expertise to select bad locations for wells
+3. Random selection on the map
+4. Use more criteria on the wells to basically rank them by quality
+
+It would be interesting in the future to compare those different techniques. But at this point, we are just trying to establish a proof of concept. We kept it simple and just used random generation.
 
 <!-- PHYSICAL DEVICE -->
 ## Physical Device
