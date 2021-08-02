@@ -105,13 +105,17 @@ It would be interesting in the future to compare those different strategies to g
 It seems that "Geology is the single most important factor determining
 groundwater occurrence." [source from litterature](https://www.researchgate.net/publication/335223999_Review_Advances_in_groundwater_potential_mapping?enrichId=rgreq-f1e4d8c725f3688f4aada4a96cfd35b3-XXX&enrichSource=Y292ZXJQYWdlOzMzNTIyMzk5OTtBUzo4OTY0Mzc3MDk3MDExMjJAMTU5MDczODgxMzUyMA%3D%3D&el=1_x_2&_esc=publicationCoverPdf)
 
-Therefore, it is natural that we started by adding this as a mandatory feature. We can downloaded a Nevada fault map from [ESRI](https://gisweb.unr.edu/QuaternaryFaults/)
-
-We basically digitalized that image, and used to calcutate the distance to each different kind of fault, creating 7 distinct features.
+Therefore, it is natural that we started by adding this as a mandatory feature. We were able to downloaded a Nevada fault map from [ESRI](https://gisweb.unr.edu/QuaternaryFaults/). We then digitalized that image, and used it to calcutate the distance to each different kind of fault, creating 7 distinct features.
 
 More details on the techniques we used can be found on that [IBM Watson notebook](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/c2309589-9726-466d-83a5-26b66289d2c7/view?access_token=d38481d58a26c3ac2daf1464e235dc13d8f95bb61218d9a873b7fffb7f8c1741)
 
+Using the same technique, we plan to also add more features, like distance to river, altitude and slope.
 
+#### Model training
+
+Given the small size of the dataset, model training is fast and straightforward, we managed to get **74% accuracy with a Support Vector Machine** model which is rather encouraging at this stage of the project. We should be able to get good accuracy, probably similar to the litterature, once we get access to a bigger dataset.
+
+You can find the model preparation [here](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/0ac46548-4541-4d77-86dc-66ec84066997/view?access_token=d8202e21c444a76c7c75df59655ed5b01e6edcd153d8a077ee0e05f6b9c11166)
 
 <!-- PHYSICAL DEVICE -->
 ## Physical Device
