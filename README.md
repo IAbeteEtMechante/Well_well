@@ -32,7 +32,7 @@ The 2021 IBM Call for Code Challenge is a global contest to fight **Climate Chan
 
 Watch this [short video](https://www.youtube.com/watch?v=CnvxaTBWoZo) to have a better idea of what we are all about.
 
-Author: Pierre Schwob (Master in Data Science student, [Harbour Space](https://harbour.space) / [UTCC](https://www.utcc.ac.th))
+Author: Pierre Schwob (Master in Data Science, [Harbour Space](https://harbour.space) / [UTCC](https://www.utcc.ac.th))
 <br>
 
 
@@ -86,7 +86,7 @@ Finally, we were able to state our mathematical problem statement as follow: "Fo
 
 In order to solve the mathematical problem statement, we needed to have access to some datasets. We were mostly interested in **datasets in Africa** and we spent a long time looking for them. The results of our searches can be found in the [datasets]() directory.
 
-However it was really difficult to find datasets with enough datapoints in Africa. That's why eventually we focused on a dataset of 50,000 wells in Nevada. While our main goal is not to build water wells in the United States(even if it is a good thing), we decided to focus on this area first, to advance our Machine Learning model, with the idea that we could use **transfer learning** to move our findings to Africa later. Data collection for our project is not that easy, and that's why we would be happy in the future to have some funding to pursue this dataset collection in Africa.
+However it was really difficult to find datasets with enough datapoints in Africa. That's why eventually we focused on a dataset of 50,000 wells in Nevada. While our main goal is not to build water wells in the United States(even if it would be a good thing too), we decided to focus on this area first, to advance our Machine Learning model, with the idea that we could use **transfer learning** to move our findings to Africa later. Data collection for our project is not that easy, and that's why we would be happy in the future to have some funding to pursue this dataset collection in Africa. Maybe this submission to the IBM Call for Code Challenge can give us more legitimity to convince governement bodies to share wells data with us.
 
 You can have a look at our **dataset exploration** on this [notebook](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/e88bda12-5d09-4edd-acae-3eda798d8a3e/view?access_token=c10ecb8efbeaa0e325c1ba56e059c8ed9dd6e92a31709112f1836653a14e4c9d) on IBM Watson.
 
@@ -102,7 +102,14 @@ It would be interesting in the future to compare those different strategies to g
 
 #### Feature generation
 
+It seems that "Geology is the single most important factor determining
+groundwater occurrence." [source from litterature](https://www.researchgate.net/publication/335223999_Review_Advances_in_groundwater_potential_mapping?enrichId=rgreq-f1e4d8c725f3688f4aada4a96cfd35b3-XXX&enrichSource=Y292ZXJQYWdlOzMzNTIyMzk5OTtBUzo4OTY0Mzc3MDk3MDExMjJAMTU5MDczODgxMzUyMA%3D%3D&el=1_x_2&_esc=publicationCoverPdf)
 
+Therefore, it is natural that we started by adding this as a mandatory feature. We can downloaded a Nevada fault map from [ESRI](https://gisweb.unr.edu/QuaternaryFaults/)
+
+We basically digitalized that image, and used to calcutate the distance to each different kind of fault, creating 7 distinct features.
+
+More details on the techniques we used can be found on that [IBM Watson notebook](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/c2309589-9726-466d-83a5-26b66289d2c7/view?access_token=d38481d58a26c3ac2daf1464e235dc13d8f95bb61218d9a873b7fffb7f8c1741)
 
 
 
