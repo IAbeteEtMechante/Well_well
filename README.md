@@ -111,6 +111,7 @@ More details on the techniques we used can be found on that [IBM Watson notebook
 
 Using the same technique, we plan to also add more features, like distance to river, altitude and slope.
 
+
 #### Model training
 
 Given the small size of the dataset, model training is fast and straightforward, we managed to get **74% accuracy with a Support Vector Machine** model which is rather encouraging at this stage of the project. We should be able to get good accuracy, probably similar to the litterature, once we get access to a bigger dataset.
