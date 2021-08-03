@@ -121,6 +121,14 @@ You can find the model preparation [here](https://dataplatform.cloud.ibm.com/ana
 <!-- PHYSICAL DEVICE -->
 ## Physical Device
 
+
+<br />
+<p align="center">
+  <a href="https://github.com/IAbeteEtMechante/Well_well">
+    <img src="images/device.png" alt="Logo" width="400" height="225">
+  </a>
+
+
 Its mission is to guide the user to the nearest and best well location. It is a **2” device with a microcomputer**, and its **GPS sensor** can detect the user's current location. Because it stores lots of locations precalculated by the AI model, it can then easily guide him or her to the best-nearest location.
 
 
