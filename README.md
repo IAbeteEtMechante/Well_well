@@ -79,6 +79,15 @@ The **final goal** of the project was clear to us very fast: "How to help people
 
 Finally, we were able to state our mathematical problem statement as follow: "For a given map around the GPS location of the end user, we want to be able to predict for each GPS location within walking distance, what is the **probability** that this location is a **good location to drill a water well**."
 
+And according to the scientific litterature, many factors can be taken into account to predict this probabiity of "good location for a well". Here are some of the features most commonly used:
+
+<br />
+<p align="center">
+  <a href="https://github.com/IAbeteEtMechante/Well_well">
+    <img src="images/features.png" alt="Logo" width="600" height="250">
+  </a>
+
+
 
 ### More explanations
 
@@ -98,7 +107,14 @@ Once we started working on our dataset, our dataset was what we call "positive s
 3. **Random selection** on the map
 4. Use more criteria on the wells to basically **rank them by quality**
 
-It would be interesting in the future to compare those different strategies to generate the negative samples. But at this point, we were just trying to establish a **proof of concept** for our project. We kept it simple and just used random generation.
+It would be interesting in the future to compare those different strategies to generate the negative samples. But at this point, we were just trying to establish a **proof of concept** for our project. We kept it simple and just used random generation. Here is what the map of the wells look like:
+
+
+<br />
+<p align="center">
+  <a href="https://github.com/IAbeteEtMechante/Well_well">
+    <img src="images/wells_on_fault_map.png" alt="Logo" width="450" height="400">
+  </a>
 
 #### Feature generation
 
