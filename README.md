@@ -119,11 +119,11 @@ It would be interesting in the future to compare those different strategies to g
 #### Feature generation
 
 It seems that "Geology is the single most important factor determining
-groundwater occurrence." [source from litterature](https://www.researchgate.net/publication/335223999_Review_Advances_in_groundwater_potential_mapping?enrichId=rgreq-f1e4d8c725f3688f4aada4a96cfd35b3-XXX&enrichSource=Y292ZXJQYWdlOzMzNTIyMzk5OTtBUzo4OTY0Mzc3MDk3MDExMjJAMTU5MDczODgxMzUyMA%3D%3D&el=1_x_2&_esc=publicationCoverPdf)
+groundwater occurrence." ([source](https://www.researchgate.net/publication/335223999_Review_Advances_in_groundwater_potential_mapping?enrichId=rgreq-f1e4d8c725f3688f4aada4a96cfd35b3-XXX&enrichSource=Y292ZXJQYWdlOzMzNTIyMzk5OTtBUzo4OTY0Mzc3MDk3MDExMjJAMTU5MDczODgxMzUyMA%3D%3D&el=1_x_2&_esc=publicationCoverPdf)).
 
 Therefore, it is natural that we started by adding this as a mandatory feature. We were able to downloaded a Nevada fault map from [ESRI](https://gisweb.unr.edu/QuaternaryFaults/). We then digitalized that image, and used it to calcutate the distance to each different kind of fault, creating 7 distinct features.
 
-More details on the techniques we used can be found on that [IBM Watson notebook](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/c2309589-9726-466d-83a5-26b66289d2c7/view?access_token=d38481d58a26c3ac2daf1464e235dc13d8f95bb61218d9a873b7fffb7f8c1741)
+More details on the techniques we used can be found on that [IBM Watson notebook](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/c2309589-9726-466d-83a5-26b66289d2c7/view?access_token=d38481d58a26c3ac2daf1464e235dc13d8f95bb61218d9a873b7fffb7f8c1741).
 
 Using the same technique, we plan to also add more features, like distance to river, altitude and slope.
 
